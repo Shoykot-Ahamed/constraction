@@ -147,7 +147,10 @@ $.scrollUp({
 // WOW active
 new WOW().init();
 
-
+jQuery('#mobile-menu').meanmenu({
+	meanMenuContainer: '.mobile-menu',
+	meanScreenWidth: "991"
+});
 
 
 $('.info-bar').click(function(){
@@ -174,7 +177,7 @@ $('.c').slick({
 		  slidesToShow: 3,
 		  slidesToScroll: 3,
 		  infinite: true,
-		  dots: true
+		  dots: false
 		}
 	  },
 	  {
@@ -215,14 +218,14 @@ $('.blog-active').slick({
 		}
 	  },
 	  {
-		breakpoint: 600,
+		breakpoint: 991,
 		settings: {
 		  slidesToShow: 2,
-		  slidesToScroll: 2
+		  slidesToScroll: 1
 		}
 	  },
 	  {
-		breakpoint: 480,
+		breakpoint: 767,
 		settings: {
 		  slidesToShow: 1,
 		  slidesToScroll: 1
@@ -252,14 +255,14 @@ $('.testimonial-active').slick({
 		}
 	  },
 	  {
-		breakpoint: 600,
+		breakpoint: 991,
 		settings: {
 		  slidesToShow: 2,
-		  slidesToScroll: 2
+		  slidesToScroll: 1
 		}
 	  },
 	  {
-		breakpoint: 480,
+		breakpoint: 767,
 		settings: {
 		  slidesToShow: 1,
 		  slidesToScroll: 1
@@ -286,18 +289,18 @@ $('.brand-active').slick({
 		  slidesToShow: 3,
 		  slidesToScroll: 3,
 		  infinite: true,
-		  dots: true
+		  dots: false
 		}
 	  },
 	  {
-		breakpoint: 600,
+		breakpoint: 991,
 		settings: {
-		  slidesToShow: 2,
-		  slidesToScroll: 2
+		  slidesToShow: 4,
+		  slidesToScroll: 1
 		}
 	  },
 	  {
-		breakpoint: 480,
+		breakpoint: 767,
 		settings: {
 		  slidesToShow: 1,
 		  slidesToScroll: 1

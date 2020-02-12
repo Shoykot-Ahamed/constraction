@@ -500,6 +500,7 @@ label {
 /* slider-area */
 .single-slider.slider-height{
 	min-height: 850px;
+	background-size: cover;
 }
 .slider-content span{
 	text-transform: uppercase;
@@ -551,6 +552,7 @@ label {
 .single-features h2{
 	font-weight: 600;
 	margin-bottom: 15px;
+	font-size: 28px;
 }
 .single-features p{
 	font-size: 17px;
@@ -690,6 +692,9 @@ label {
 
 
 /* counter-area */
+.counter-area{
+	background-size: cover;
+}
 .single-counter span{
 	display: block;
 	font-weight: 600;
