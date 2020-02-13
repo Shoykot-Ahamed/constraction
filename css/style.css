@@ -1184,6 +1184,44 @@ header.transparent-header{
 }
 .team-links a:hover{background: #ffffff;}
 
+/* team-area-about */
+.team-area-about .team-title h2{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.team-area-about .team-title p{
+	font-size: 17px;
+	margin-bottom: 80px;
+}
+.team-info-about h3{
+	font-size: 17px;
+	color: #333333;
+	font-weight: 500;
+	margin-bottom: 5px;
+	line-height: 28px;
+}
+.team-info-about span{
+	font-size: 16px;
+	color: #777;
+	font-weight: 400;
+	margin-bottom: 5px;
+	display: block;
+	line-height: 30px;
+}
+.member-link a{
+	color: #3f5666;
+	margin: 0 10px;
+	display: inline-block;
+	font-size: 14px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+}
+.member-link a:hover{
+	background: #fbba42;
+}
+
 /* our-mission accordion */
 .our-mission .accordion{
 	padding-top: 35px;
@@ -1240,3 +1278,30 @@ header.transparent-header{
 	padding: 30;
 	margin-bottom: 30;
 }
+
+
+
+
+
+
+/* About US */
+
+	/* page-title */
+	.page-title-area .container-fluid{
+		background-size: cover;
+	}
+	.page-title h1{
+		font-size: 72px;
+		font-weight: 600;
+		color: #414149;
+	}
+	.breadcrumb{
+		background: none;
+		border-radius: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.breadcrumb-item a{
+		color: #2f3440;
+		font-size: 17px;
+	}

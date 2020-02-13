@@ -111,6 +111,18 @@
     }
 
 
+    .page-title-area .container-fluid{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .promotion-about-area {
+        padding: 50px 0;
+    }
+    .team-area-about{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
 }
 
  
@@ -173,7 +185,30 @@
     .single-slider.slider-height-3{
         min-height: 550px;
     }
- 
+
+
+    .page-title-area .container-fluid{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .promotion-about-area {
+        padding: 30px 0;
+    }
+    .team-area-about{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .page-title-area .page-title h1{
+        font-size: 60px;
+    }
+    .promotion-about-area .promotion-text{
+        padding: 30px 0;
+    }
+    .counter-about-area{
+        padding: 60px 0 0;
+        margin-bottom: 20px;
+    }
+
 }
  
 /* Large Mobile :480px. */
