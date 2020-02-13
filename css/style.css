@@ -1201,7 +1201,7 @@ header.transparent-header{
 }
 .our-mission .btn-link::before{
 	background: #fbba42;
-	border: 1px solid #282828;
+	border: 1px solid #fbba42;
 	position: absolute;
 	content: "-";
 	right: 0;
@@ -1211,6 +1211,7 @@ header.transparent-header{
 	 
 }
 .our-mission .btn-link.collapsed::before{
+	border: 1px solid #282828;
 	background: none;
 	position: absolute;
 	content: "+";

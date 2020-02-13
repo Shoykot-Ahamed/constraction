@@ -68,6 +68,12 @@
     .single-slider.slider-height{
         min-height: 550px;
     }
+    .slider-content.slider-content-3 h1{
+        font-size: 80px !important;
+    }
+    .single-slider.slider-height-3{
+        min-height: 550px;
+    }
     .slide-img img{
         width: 100%;
     }
@@ -149,6 +155,23 @@
     }
     .single-brand a{
         display: inline-block;
+    }
+    .home-3 .container{
+        padding: 10px 0;
+    }
+    .home-3 .logo img{
+        float: left;
+    }
+    .language-header-3{
+        float: right;
+    }
+    .slider-content.slider-content-3 h1{
+        font-size: 49px !important;
+        line-height: 55px;
+        margin-bottom: 5px;
+    }
+    .single-slider.slider-height-3{
+        min-height: 550px;
     }
  
 }
