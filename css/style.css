@@ -207,6 +207,12 @@ label {
 	vertical-align: middle;
 	white-space: nowrap;
 }
+.btn.btn-2{
+	background: none;
+	border: 1px solid #fbba42;
+	line-height: 1;
+	padding: 17px 35px;
+}
 .breadcrumb > .active {
 	color: #888;
 }
@@ -418,6 +424,44 @@ label {
 	text-align: center;
 }
 
+.transparent-header .header-top-area{
+	border-bottom: 1px solid #d9a138;
+}
+header.transparent-header{
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 56;
+}
+.transparent-header .main-menu ul li{
+	margin-left: 45px;
+}
+.transparent-header .main-menu ul li a{
+	color: #343434;
+}
+.transparent-header .social-icon a{
+	color: #343434;
+}
+.transparent-header .language ul li a{
+	color: #343434;
+}
+.transparent-header .language ul li a:hover{
+	color: #e0af4c;
+}
+.transparent-header .language ul li ul li a{
+	color: #ddd;
+}
+.transparent-header .language ul li ul li a:hover{
+	color: #e0af4c;
+}
+.transparent-header .header-right ul li a{
+	color: #343434;
+}
+.transparent-header .social-links::before{
+	background: #e0af4c;
+}
+
 /* Header bottom */
 .header-button a{
 	font-size: 14px;
@@ -533,6 +577,15 @@ label {
 	margin-top: 30px;
 }
 
+.single-slider.height-100{
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.slider-image.slider-full img{
+	width: 75%;
+	padding-bottom: 50px;
+}
 
 /* features-area */
 .features-title h2{
@@ -710,6 +763,15 @@ label {
 	margin: 0;
 }
 
+.single-counter.counter-2 span{
+	line-height: 1;
+	font-size: 72px;
+	margin-top: 0px;
+}
+.single-counter.counter-2 p{
+	padding-left: 20px;
+	font-size: 15px;
+}
 
 /* latest-blog-area */
 .custom-row{
@@ -795,7 +857,40 @@ label {
 }
 
 
-
+.blog-title span{
+	border: 1px solid #ebebeb;
+	color: #333333;
+	display: inline-block;
+	font-family: poppins;
+	font-size: 16px;
+	font-weight: 600;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: auto;
+	padding-top: 3px;
+}
+.blog-title span span{
+	font-size: 11px;
+	font-weight: 400;
+	display: block;
+	border: none;
+	padding-top: 0;
+}
+.blog-title h2{
+	font-size: 22px;
+	line-height: 28px;
+	color: #333333;
+	font-weight: 600;
+	padding-left: 20px;
+}
+.blog-latest-content a.btn{
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.blog-latest-content p{
+	margin-bottom: 30px;
+}
 
 /* testimonial-area */
 .testimonial-title h2{
@@ -832,6 +927,47 @@ label {
 	font-size: 14px;
 	font-weight: 400;
 	color: #777777;
+}
+
+/* testimonial-area */
+.testimonial-item i{
+	color: #fbba42;
+	font-size: 72px;
+	margin-bottom: 40px;
+}
+.testimonial-item p{
+	margin-bottom: 25px;
+	padding: 0;
+}
+.testimonial-item h3{
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 7px;
+}
+.testimonial-nav{
+	text-align: center;
+	width: 310px;
+	margin: auto;
+}
+.testimonial-nav button{
+	background: none;
+	border: none;
+	color: #333333;
+	font-size: 24px;
+	left: -50px;
+	top: 50%;
+	position: absolute;
+	transform: translateY(-50%);
+}
+.testimonial-nav button.slick-next{
+	left: auto;
+	right: -50px;
+}
+.testimonial-thumb img{
+	transform: scale(.7);
+}
+.testimonial-thumb.slick-center img{
+	transform: scale(1);
 }
 
 /* footer-area */
@@ -899,3 +1035,76 @@ label {
 .copyright-text p{
 	margin: 0;
 }
+
+
+
+
+
+
+/* team-area */
+.team-title h2{
+	font-size: 40px;
+	font-weight: 600;
+	color: #010101;
+	margin-bottom: 25px;
+}
+.team-title p{
+	margin-bottom: 25px;
+}
+.team-title .apply-btn{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 11px;
+	color: #333333;
+}
+.team-info{
+	padding-top: 33px;
+}
+.team-info h3{
+	color: #333333;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.team-info span{
+	color: #777777;
+	font-size: 16px;
+}
+.team-img{
+	position: relative;
+}
+.team-img::before{
+	background: #fbba42;
+	content: "";
+	position: absolute;
+	height: 0;
+	width: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0.9;
+	transition: all 0.3 ease 0s;
+}
+.single-team:hover .team-img::before{height: 100%;}
+.team-links{
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	transform: all 0.3s ease 0s;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+.single-team:hover .team-links{opacity: 1;visibility: visible;}
+.team-links a{
+	border-radius: 50%;
+	color: #2d2c40;
+	display: inline-block;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 2px;
+	text-align: center;
+	transition: all 0.2s ease 0s;
+	width: 30px;
+}
+.team-links a:hover{background: #ffffff;}

@@ -1,8 +1,6 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-    .single-slider.slider-height{
-        min-height: 800px;
-    }
+    
 
 }
 
@@ -20,7 +18,7 @@
         padding-right: 0px;
     }
     .main-menu ul li{
-        margin-left: 25px;
+        margin-left: 25px !important;
     }
     .header-button a{
         padding: 14px 12px;
@@ -40,6 +38,19 @@
         padding-left: 20px;
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+    .promotion-area{
+        margin: 0;
+        padding: 0;
+    }
+    .promotion-area .cta-img img{
+        width: 100%;
+        padding-top: 70px;
+    }
+    .promotion-area .promotion-text{
+        padding-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
 }
@@ -72,6 +83,20 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .promotion-area{
+        margin: 0;
+        padding: 0;
+    }
+    .promotion-area .cta-img img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .promotion-area .promotion-text{
+        padding-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
     .footer-widget h3{
         font-size: 20px;
     }

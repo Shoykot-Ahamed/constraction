@@ -153,10 +153,10 @@ jQuery('#mobile-menu').meanmenu({
 });
 
 
-$('.info-bar').click(function(){
+$('.info-bar').on('click',function(){
 	$('.extra-info').addClass('info-open')
 })
-$('.close-icon').click(function(){
+$('.close-icon').on('click',function(){
 	$('.extra-info').removeClass('info-open')
 })
 
@@ -273,8 +273,27 @@ $('.testimonial-active').slick({
   });
 
 
+  $('.testimonial-item-active').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows: false,
+	fade: true,
+	asNavFor: '.testimonial-nav'
+  });
+  $('.testimonial-nav').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	asNavFor: '.testimonial-item-active',
+	dots: false,
+	prevArrow:'<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+	nextArrow:'<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+	centerMode: true,
+	focusOnSelect: true,
+	centerPadding:0
+  });
 
-  // testimonial-active
+
+  // brand-active
 $('.brand-active').slick({
 	dots: false,
 	arrows: false,
@@ -324,6 +343,12 @@ $('.brand-active').slick({
   $('.portfolio-menu').on( 'click', 'button', function() {
 	var filterValue = $(this).attr('data-filter');
 	grid.isotope({ filter: filterValue });
+  });
+  
+  $('.portfolio-menu').on( 'click', function() {
+	$(this).siblings('.active').removeClass('.active')
+	$(this).addClass('.active')
+	event.preventDefault();
   });
 
 
