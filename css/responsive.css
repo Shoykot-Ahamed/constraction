@@ -53,6 +53,12 @@
         padding-bottom: 30px;
     }
 
+    .why-choose-us-area .why-work h3{
+        font-size: 26px;
+    }
+
+
+
 }
 
  
@@ -123,19 +129,39 @@
         padding-bottom: 70px;
     }
 
+
+    .why-work h3 {
+        font-size: 19px;
+    }
+    .why-work p {
+        font-size: 16px;
+    }
+    .job-area-left {
+        padding: 20px 10px;
+    }
+
 }
 
  
-/* small mobile :320px. */
-@media (max-width: 767px) {
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
     .wrapper-box{
         padding: 0 20px;
     }
     .header-top-area{
         padding: 0 10px;
     }
+    .extra-info{
+        width: 100%;
+    }
     .header-bottom-area{
         padding: 10px 10px;
+    }
+    .header-right ul li a {
+        margin-left: 25px;
     }
     .single-slider.slider-height{
         min-height: 550px;
@@ -178,7 +204,7 @@
         float: right;
     }
     .slider-content.slider-content-3 h1{
-        font-size: 49px !important;
+        font-size: 40px !important;
         line-height: 55px;
         margin-bottom: 5px;
     }
@@ -187,6 +213,9 @@
     }
 
 
+    .language-header-3> ul> li> a {
+        padding: 12px 10px;
+    }
     .page-title-area .container-fluid{
         padding-top: 30px;
         padding-bottom: 30px;
@@ -209,10 +238,156 @@
         margin-bottom: 20px;
     }
 
+
+    .service-content-area{
+        padding: 50px 0;
+    }
+ 
+
+
+    .why-title{
+        margin-top: -50px;
+    }
+    .why-title h1 {
+        font-size: 35px;
+    }
+    .why-work i {
+        height: 90px;
+        width: 90px;
+        line-height: 90px;
+    }
+    .why-work {
+        margin-bottom: 30px;
+    }
 }
- 
-/* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+
+
+
+
+
+
+
+
+/* small mobile :320px. */
+@media (max-width: 479px) {
+
+    .wrapper-box{
+        padding: 0 15px;
+    }
+    .header-bottom-area .logo a img{
+        width: 130px;
+    }
+    .mean-container a.meanmenu-reveal {
+        height: 16px !important;
+        line-height: 16px;
+        margin-top: -10px;
+    }
+    .header-top-area{
+        padding: 0 10px;
+    }
+    .extra-info{
+        width: 100%;
+    }
+    .header-bottom-area{
+        padding: 10px 10px;
+    }
+    .header-bottom-area .logo a img{
+        width: 130px;
+    }
+    .mean-container a.meanmenu-reveal {
+        height: 16px !important;
+        line-height: 16px;
+        margin-top: -10px;
+    }
+    .mean-container a.meanmenu-reveal span{
+        height: 2px;
+    }
+    .header-right ul li a {
+        margin-left: 4px;
+    }
+    .single-slider.slider-height{
+        min-height: 550px;
+    }
+    .slider-content h1{
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .slider-content p{
+        padding-right: 0;
+    }
+    .slider-content span{
+        letter-spacing: 2px;
+    }
+    .features-title h2{
+        font-size: 36px;
+    }
+    .promotion-text{
+        padding-left: 0;
+    }
+    .portfolio-menu button{
+        margin: 0 2px 3px;
+    }
+    .cap.text-center img{
+        width: 100%;
+    }
+    .single-brand{
+        text-align: center;
+    }
+    .single-brand a{
+        display: inline-block;
+    }
+    .home-3 .container{
+        padding: 10px 0;
+    }
+    .home-3 .logo img{
+        float: left;
+    }
+    .language-header-3{
+        float: right;
+    }
+    .slider-content.slider-content-3 h1{
+        font-size: 40px !important;
+        line-height: 55px;
+        margin-bottom: 5px;
+    }
+    .single-slider.slider-height-3{
+        min-height: 550px;
+    }
+
+    
+    .language-header-3> ul> li> a {
+        padding: 12px 10px;
+    }
+    .page-title-area .container-fluid{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .promotion-about-area {
+        padding: 30px 0;
+    }
+    .team-area-about{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .page-title-area .page-title h1{
+        font-size: 50px;
+    }
+    .promotion-about-area .promotion-text{
+        padding: 30px 0;
+    }
+    .counter-about-area{
+        padding: 60px 0 0;
+        margin-bottom: 20px;
+    }
+
+
+    .service-content-area{
+        padding: 35px 0;
+    }
+    .single-service-box{
+        padding: 12px;
+    }
+    .single-service-box:hover{
+        padding: 10px;
+    }
 }

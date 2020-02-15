@@ -86,7 +86,7 @@ h6 {
 	color: #333;
 	margin-top: 0px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: normal;
 }
 h1 a,
@@ -247,18 +247,19 @@ label {
 #scrollUp {
 	background: #fbba42;
 	height: 40px;
-	width: 60px;
-	right: 10px;
-	bottom: -12px;
-	color: #fff;
-	font-size: 20px;
+	width: 40px;
+	right: 50%;
+	left: 50%;
+	bottom: 0;
+	color: #3b3f42;
 	text-align: center;
-	border-radius: 15%;
-	font-size: 20px;
-	line-height: 34px;
+	border-radius: 50%;
+	font-size: 14px;
+	line-height: 40px;
 }
 #scrollUp:hover {
 	background: #3b3f42;
+	color: #fbba42;
 }
 
 
@@ -391,10 +392,10 @@ label {
 	height: 100%;
 	padding: 30px;
 	position: fixed;
-	right: -100%;
+	right: -200%;
 	top: 0;
 	width: 400px;
-	z-index: 88;
+	z-index: 99999999;
 	transition: .7s;
 }
 .extra-info.info-open{
@@ -1284,7 +1285,7 @@ header.transparent-header{
 
 
 
-/* About US */
+/* About */
 
 	/* page-title */
 	.page-title-area .container-fluid{
@@ -1304,4 +1305,242 @@ header.transparent-header{
 	.breadcrumb-item a{
 		color: #2f3440;
 		font-size: 17px;
+	}
+
+
+
+
+/* Services */
+
+	.single-service-box{
+		padding: 30px 30px;
+	}
+	.single-service-box:hover{
+		border: 2px solid #f2f2f2;
+		padding: 28px 28px;
+	}
+	.single-service-box i{
+		font-size: 28px;
+		color: #333333;
+		background: #f2f2f2;
+		height: 50px;
+		width: 50px;
+		text-align: center;
+		line-height: 50px;
+		border-radius: 50%;
+		margin-bottom: 30px;
+	}
+	.single-service-box:hover i{
+		background: #fbba42;
+	}
+	.single-service-box h3{
+		font-size: 28px;
+		color: #333333;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+
+
+
+
+/* work-details */
+
+	.work-details-area h3{
+		font-weight: 600;
+		padding-bottom: 15px;
+	}
+	.office-buildings p{
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+	.project{
+		padding: 50px 45px;
+	}
+	.project p{
+		font-weight: 700;
+	}
+	.project p span{
+		display: block;
+		font-weight: 400;
+	}
+	.project-gallery-title h3{
+		padding-bottom: 20px;
+	}
+
+
+
+/* news page */
+
+
+	.blog-item-content h4{
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+	.blog-item-content span{
+		font-size: 14px;
+		font-weight: 400;
+		font-family: 'Poppins', sans-serif;
+		color: #333333;
+		text-transform: uppercase;
+		position: relative;
+	}
+	.blog-item-content span::after{
+		background: #fbba42;
+		height: 2px;
+		width: 80px;
+		content: "";
+		position: absolute;
+		left: 65px;
+		top: 50%;
+		transform: translateY(50%);
+	}
+	.blog-item-content p{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.news-pagination .pagination{
+		border-radius: 0;
+	}
+	.news-pagination .pagination li{
+		margin: 0 5px;
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	.news-pagination .pagination li a{
+		color: #666666;
+		font-weight: 600;
+		font-size: 20px;
+		background: #f6f6f6;
+		border: none;
+	}
+	.news-pagination .page-item.active .page-link{
+		background: #fbba42;
+		color: #666666;
+	}
+	.news-pagination .pagination li a i{
+		font-size: 14px;
+	}
+	.news-pagination .page-item:first-child .page-link{
+		border-radius: 0;
+	}
+	.news-pagination .page-item:last-child .page-link{
+		border-radius: 0;
+	}
+
+
+/* contact form */	
+
+	.contact-area .contact-form{
+		padding: 60px 35px;
+	}
+	.contact-form h5{
+		padding-bottom: 60px;
+	}
+	.contact-form input, .contact-form textarea{
+		width: 100%;
+		border: none;
+		background: none;
+		border-bottom: 1px solid #cccccf;
+		padding-bottom: 20px;
+		margin-bottom: 40px;
+	}
+	.contact-form input::placeholder, .contact-form textarea::placeholder{
+		color: #989898;
+		font-size: 13px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+	}
+	.contact-form input[type=submit]{
+		text-transform: uppercase;
+		font-weight: 500;
+		border: none;
+		width: auto;
+		margin-bottom: 15px;
+		background: #fbba42;
+		padding: 17px 14px;
+		cursor: pointer;
+	}
+	.contact-area .contact-details{
+		padding: 60px 35px;
+		border: 1px solid #f2f2f2;
+	}
+	.contact-details p{
+		margin-bottom: 10px;
+	}
+	.contact-details h2{
+		margin-bottom: 55px;
+	}
+	.contact-details h5{
+		margin-bottom: 20px;
+	}
+
+
+/* careers-area */
+	.why-work{
+		padding: 0 5px;
+	}
+	.why-work i{
+		font-size: 36px;
+		height: 112px;
+		width: 112px;
+		line-height: 112px;
+		background: #fbba42;
+		border-radius: 50%;
+		margin-bottom: 30px;
+	}
+	.why-work h3{
+		margin-bottom: 15px;
+	}
+	.job-area-left{
+		padding: 40px 33px;
+	}
+	.job-area-left h3{
+		padding-bottom: 20px;
+		border-bottom: 1px solid #fbba42;
+		margin-bottom: 45px;
+	}
+	.job-area-left ul li{
+		margin-bottom: 25px;
+	}
+	.job-area-left ul li a{
+		font-size: 17px;
+		color: #777777;
+		display: block;
+	}
+	.job-area-right h3{
+		padding-bottom: 10px;
+	}
+	.job-area-right p{
+		font-size: 16px;
+		padding-right: 20px;
+	}
+	.job-area-right ul li{
+		padding-left: 25px;
+		margin-bottom: 25px;
+		position: relative;
+	}
+	.job-area-right ul li::before{
+		position: absolute;
+		height: 10px;
+		width: 10px;
+		border: 2px solid #5a596a;
+		border-radius: 50%;
+		content: "";
+		left: 0;
+		top: 10px;
+	}
+	.job-area-right ul li a{
+		font-size: 17px;
+		line-height: 30px;
+		color: #777777;
+		display: block;
+	}
+	.job-area-right p.sent-cv{
+		font-size: 17px;
+		margin-top: 70px;
+	}
+	.job-area-right p.sent-cv span{
+		font-weight: 600;
 	}
