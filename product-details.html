@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>News</title>
+        <title>Product Details</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/owl.carousel.min.css">
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/nice-select.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/meanmenu.css">
         <link rel="stylesheet" href="css/slick.css">
@@ -145,11 +146,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="page-title text-center">
-                                <h1>News</h1>
+                                <h1>Product Details</h1>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb justify-content-center">
                                       <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                      <li class="breadcrumb-item"><a href="news.html">News</a></li>
+                                      <li class="breadcrumb-item"><a href="product-details.html">Product Details</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -158,101 +159,211 @@
                 </div>
             </div>
             <!-- page-title-area end -->
-
-            <!-- portfolio-are start -->
-            <div class="blog-page-area pt-100 pb-30">
+            
+            <!-- shop-area start -->
+            <div class="product-details-area pt-100 pb-70">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-4">
-                            <div class="single-blog-items mb-50">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="img/blog/blog1.jpg" alt=""></a>
+                    <div class="prodcuct-details">
+                        <div class="row mb-50">
+                            <div class="col-xl-6">
+                                <div class="product-zoom-img mb-50">
+                                    <ul class="nav product-tab" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                                                <img src="img/shop/product/pro-sm1.jpg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                                                <img src="img/shop/product/pro-sm2.jpg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+                                                <img src="img/shop/product/pro-sm3.jpg" alt="">
+                                            </a>
+                                        </li>
+                                      </ul>
+
+                                      <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <img src="img/shop/product/pro-lg1.jpg" alt="">
+                                        </div>
+                                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <img src="img/shop/product/pro-lg1.jpg" alt="">
+                                        </div>
+                                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                            <img src="img/shop/product/pro-lg1.jpg" alt="">
+                                        </div>
+                                      </div>
                                 </div>
-                                <div class="blog-item-content">
-                                    <h4><a href="blog-details.html">How to Improve Your Sales Volume</a></h4>
-                                    <span>07 May</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="product-desc mb-50">
+                                    <h1>Speed Cordless Jigsaw</h1>
+                                    <div class="rating">
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="fas fa-star"></i></a>
+                                        <a href=""><i class="far fa-star"></i></a>
+                                        (2)
+                                    </div>
+                                    <h2>$12.00</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <div class="pro-details-action">
+                                        <a href="" class="btn brand-btn">
+                                            <i class="fas fa-shopping-cart"></i>ADD TO CART
+                                        </a>
+                                        <select name="select" id="number">
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                            <option value="">04</option>
+                                            <option value="">05</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
-                            <div class="single-blog-items mb-50">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="img/blog/blog2.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-item-content">
-                                    <h4><a href="blog-details.html">How to Improve Your Sales Volume</a></h4>
-                                    <span>07 May</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
-                            <div class="single-blog-items mb-50">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="img/blog/blog3.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-item-content">
-                                    <h4><a href="blog-details.html">How to Improve Your Sales Volume</a></h4>
-                                    <span>07 May</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
-                            <div class="single-blog-items mb-50">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="img/blog/blog4.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-item-content">
-                                    <h4><a href="blog-details.html">How to Improve Your Sales Volume</a></h4>
-                                    <span>07 May</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
-                            <div class="single-blog-items mb-50">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="img/blog/blog5.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-item-content">
-                                    <h4><a href="blog-details.html">How to Improve Your Sales Volume</a></h4>
-                                    <span>07 May</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
-                            <div class="single-blog-items mb-50">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="img/blog/blog6.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-item-content">
-                                    <h4><a href="blog-details.html">How to Improve Your Sales Volume</a></h4>
-                                    <span>07 May</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="product-review">
+                                    <ul class="nav review-tab" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#description" role="tab" aria-controls="home" aria-selected="true">Description</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#review" role="tab" aria-controls="profile" aria-selected="false">Reviews (2)</a>
+                                        </li>
+                                    </ul>
+    
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="home-tab">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eius nostrum? Facilis ea tempore, quo nostrum tenetur quos sint sit sed voluptatibus culpa porro ducimus alias dolor optio eaque aperiam aliquid officia. Dolore corporis quod quas quibusdam aspernatur quae ea saepe laboriosam aliquam a tempora consectetur, perferendis maiores earum accusamus.</p>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium laborum iure pariatur labore, sint consequuntur? Quod porro tenetur rerum sed! Est assumenda et quos, voluptatem placeat eveniet nisi mollitia at, provident qui inventore fugiat quae totam commodi, distinctio ipsam nulla. Tempore non veritatis magnam quos. Asperiores quos aut possimus illum!</p>
+                                        </div>
+                                        <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="profile-tab">
+                                            <div class="product-comments">
+                                                <div class="pro-comments-list mt-35">
+                                                    <div class="pro-comment-img">
+                                                        <img src="img/shop/product/review/product-review1.png" alt="">
+                                                    </div>
+                                                    <div class="pro-comment-text">
+                                                        <p class="prc">Roger West - <span> June 5, 2017</span></p>
+                                                        <div class="rating">
+                                                            <a href=""><i class="fas fa-star"></i></a>
+                                                            <a href=""><i class="fas fa-star"></i></a>
+                                                            <a href=""><i class="fas fa-star"></i></a>
+                                                            <a href=""><i class="fas fa-star"></i></a>
+                                                            <a href=""><i class="far fa-star"></i></a>
+                                                        </div>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="pro-comments-list mt-35">
+                                                    <div class="pro-comment-img">
+                                                        <img src="img/shop/product/review/product-review2.png" alt="">
+                                                    </div>
+                                                    <div class="pro-comment-text">
+                                                        <p class="prc">Roger West - <span> June 5, 2017</span></p>
+                                                        <div class="rating">
+                                                            <a href=""><i class="fas fa-star"></i></a>
+                                                            <a href=""><i class="fas fa-star"></i></a>
+                                                            <a href=""><i class="fas fa-star"></i></a>
+                                                            <a href=""><i class="fas fa-star"></i></a>
+                                                            <a href=""><i class="far fa-star"></i></a>
+                                                        </div>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-12 news-pagination">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination justify-content-center">
-                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
-                                    </li>
-                                </ul>
-                            </nav>
+
+                        <div class="row mt-65">
+                            <div class="col-xl-7">
+                                <div class="review-box">
+                                    <h5>Add a Review</h5>
+                                    <div class="your-rating d-flex">
+                                        <span>Your Rating:</span>
+                                        <div class="rating-icon">
+                                            <a href=""><i class="far fa-star"></i></a>
+                                            <a href=""><i class="far fa-star"></i></a>
+                                            <a href=""><i class="far fa-star"></i></a>
+                                            <a href=""><i class="far fa-star"></i></a>
+                                            <a href=""><i class="far fa-star"></i></a>
+                                        </div>
+                                    </div>
+                                    <form action="#" class="review-form mt-40">
+                                        <div class="row">
+                                            <div class="col-xl-12 col-lg-12 col-md-12">
+                                                <label for="message">YOUR REVIEW</label>
+                                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                <label for="name">Name</label>
+                                                <input type="text" id="name">
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                <label for="email">Email</label>
+                                                <input type="text" id="email">
+                                            </div>
+                                            <div class="col-xl-12 col-lg-12 col-md-12">
+                                                <button class="btn brand-btn">Add your Review</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-100">
+                            <div class="col-xl-12 col-lg-12 col-md-12">
+                                <div class="portfolio-title mb-50">
+                                    <h3>Related products</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="single-prduct mb-55">
+                                    <a href="#"><img src="img/shop/product1.jpg" alt=""></a>
+                                    <h5>Colour roller</h5>
+                                    <p>$12.00</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="single-prduct mb-55">
+                                    <a href="#"><img src="img/shop/product4.jpg" alt=""></a>
+                                    <h5>Colour roller</h5>
+                                    <p>$12.00</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="single-prduct mb-55">
+                                    <a href="#"><img src="img/shop/product7.jpg" alt=""></a>
+                                    <h5>Colour roller</h5>
+                                    <p>$12.00</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="single-prduct mb-55">
+                                    <a href="#"><img src="img/shop/product11.jpg" alt=""></a>
+                                    <h5>Colour roller</h5>
+                                    <p>$12.00</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- portfolio-are end -->
-
+            <!-- shop-are end -->
+         
             <!-- footer-area start -->
             <footer>
                 <div class="brand-area gray-bg">
@@ -299,13 +410,13 @@
                                     <h3>Usefull Links</h3>
                                     <ul class="footer-link">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="#">Blogs</a></li>
+                                        <li><a href="news.html">Blogs</a></li>
                                         <li><a href="about.html">About Us</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                         <li><a href="service.html">Services</a></li>
                                         <li><a href="#">Support</a></li>
                                         <li><a href="#">Single Service</a></li>
-                                        <li><a href="#">Career</a></li>
+                                        <li><a href="careers.html">Career</a></li>
                                         <li><a href="work.html">Work</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
                                     </ul>
@@ -361,6 +472,7 @@
         <script src="js/jquery.scrollUp.min.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>

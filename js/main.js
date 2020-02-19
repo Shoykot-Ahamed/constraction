@@ -358,4 +358,8 @@ $('.brand-active').slick({
   });
 
 
+
+  // niceSelect
+  $('select').niceSelect();
+
 })(jQuery);
