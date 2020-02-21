@@ -1077,6 +1077,9 @@ header.transparent-header{
 	content: "\f0da";
 	font-weight:900;
 }
+.footer-link li a:hover {
+    color: #fbba42;
+}
 .footer-widget form{
 	position: relative;
 }
@@ -1527,6 +1530,113 @@ header.transparent-header{
 		padding: 10px;
 		display: inline-block;
 	}
+	
+
+	/* news-details */
+	.news-details:last-child{
+		border-bottom: 1px solid #acacac;
+	}
+	.blockquote{
+		border-left: 5px solid #e6e6e6;
+		margin-left: 35px;
+		padding-left: 35px;
+		margin-top: 25px;
+	}
+	.blog-post-tag a{
+		border: 1px solid #ededed;
+		padding: 10px;
+		margin-right: 10px;
+		color: #646464;
+		font-size: 12px;
+	}
+	.blog-post-tag a:hover{
+		border-color: #fbba42;
+		background: #fbba42;
+	}
+	.blog-share-icon span{
+		font-size: 15px;
+		text-transform: none;
+		color: #595959;
+		font-family: 'Poppins', sans-serif;
+	}
+	.blog-share-icon span::after{
+		background: none;
+	}
+	.blog-share-icon a {
+		color: #595959;
+		padding: 2px;
+		margin-left: 20px;
+	}
+	.blog-share-icon a {
+		color: #595959;
+		padding: 2px;
+		margin-left: 20px;
+	}
+	.blog-share-icon a:hover{
+		color: #fbba42;
+	}
+	/* post-comment */
+	.comments-avater{
+		float: left;
+		width: 103px;
+	}
+	.comments-text{
+		overflow: hidden;
+		padding-left: 40px;
+	}
+	.comments-text h6{
+		float: left;
+		font-size: 14px;
+	}
+	.comments-text span{
+		float: right;
+		font-size: 12px;
+		color: #646464;
+	}
+	.avater-name{
+		margin-bottom: 10px;
+		overflow: hidden;
+	}
+	.comments-text p{
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 25px;
+	}
+	.comments-text a{
+		border: 1px solid #ededed;
+		padding: 10px 16px;
+		color: #404040;
+		font-size: 12px;
+	}
+	.comments-text a:hover{
+		border-color: #fbba42;
+		background-color: #fbba42;
+	}
+	.comments-box{
+		margin-bottom: 50px;
+	}
+	.comments-reply{
+		padding-left: 130px;
+	}
+
+	.post-comments-form input{
+		width: 100%;
+		height: 45px;
+		padding: 0px 15px;
+		margin-bottom: 25px;
+		border: 1px solid #e6e6e6;
+	}
+	.post-comments-form textarea{
+		width: 100%;
+		height: 138px;
+		padding: 0px 15px;
+		margin-bottom: 25px;
+		border: 1px solid #e6e6e6;
+	}
+	.post-comments-form input{}
+	.post-comments-form input{}
+
+
 
 /* contact form */	
 
@@ -1836,4 +1946,77 @@ header.transparent-header{
 		border: 1px solid #eaeaea;
 		padding: 0 15px;
 		margin-bottom: 30px;
+	}
+
+
+	/* cart */
+	.cart-name h6 a{
+		font-size: 17px;
+		color: #414149;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 400;
+	}
+	.cart-price span{
+		font-size: 17px;
+		color: #777777;
+	}
+	.cart-select .nice-select{
+		float: none;
+		margin: auto;
+		width: 60px;
+	}
+	.cart-table .table-bordered td, .cart-table .table-bordered th{
+		text-align: center;
+		vertical-align: middle;
+	}
+	.cart-table .table-bordered th{
+		text-transform: uppercase;
+	}
+	.cart-del a{
+		color: #777777;
+	}
+	.coupon-left input{
+		height: 50px;
+		width: 50%;
+		padding: 0px 15px;
+		border: 1px solid #e4e4e4;
+	}
+	.coupon-left button{
+		background: none;
+		color: #414149;
+		font-size: 16px;
+		margin-left: 10px;
+		padding: 12px 35px;
+		border: 1px solid #e4e4e4;
+		cursor: pointer;
+		text-transform: uppercase;
+		transition: .3s;
+	}
+	.update-cart a{
+		color: #414149;
+		font-size: 16px;
+		margin-left: 10px;
+		padding: 14px 25px;
+		border: 1px solid #e4e4e4;
+		display: inline-block;
+	}
+	.update-cart a:hover, .coupon-left button:hover{
+		background: #fbba42;
+		border-color: #fbba42;
+	}
+	.cart-total-price ul{
+		border: 1px solid #e6e6e6;
+		margin-bottom: 30px;
+	}
+	.cart-total-price ul li{
+		text-transform: uppercase;
+		padding: 20px 28px;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.cart-total-price ul li:last-child{
+		border-bottom: none;
+	}
+	.cart-total-price ul li span{
+		float: right;
+		font-weight: 500;
 	}
