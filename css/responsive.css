@@ -3,6 +3,10 @@
     .brand-border a img {
         margin-left: 70px;
     }
+    .slider-image.slider-full img{
+        width: 65%;
+        margin-top: 67px;
+    }
 
 }
 

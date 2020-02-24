@@ -9,15 +9,26 @@
 /* CSS Index
 -----------------------------------
 1. Theme default css
-2. header
-3. slider
-4. about-area
-5. features-box
-6. department
-7. team
-8. video-area
-9. counter
-10. footer
+2. header-top-area
+3. Header bottom
+4. slider-area
+5. features-area
+6. promotion-area
+7. portfolio-area
+8. counter-area
+9. latest-blog-area
+10. testimonial-area
+11. footer-area
+12. team-area
+13. our-mission 
+14. Services
+15. work-details
+16. news page
+17. careers-area
+18. shop page
+19. product-details
+20. re-details
+21. cart
 */
 
 
@@ -262,7 +273,7 @@ label {
 
 
 
-/* header-top-area */
+/* 2. header-top-area */
 .header-top-area{
 	border-bottom: 1px solid #fbba42;
 }
@@ -285,9 +296,6 @@ label {
 }
 .language ul li:hover> a{
 	color: #fbba42;
-}
-.language ul li ul{
-	
 }
 .language ul li{
 	position: relative;
@@ -475,7 +483,7 @@ header.transparent-header{
 	background: #e0af4c;
 }
 
-/* Header bottom */
+/* 3. Header bottom */
 .header-button a{
 	font-size: 14px;
 	font-weight: 500;
@@ -560,7 +568,7 @@ header.transparent-header{
 	margin-top: 3px;
 }
 
-/* slider-area */
+/* 4. slider-area */
 .single-slider.slider-height{
 	min-height: 850px;
 	background-size: cover;
@@ -633,8 +641,19 @@ header.transparent-header{
 	width: 75%;
 	padding-bottom: 50px;
 }
+.slider-active.dot-style .slick-dots {
+    bottom: 25px;
+}
+.slider-active.dot-style .slick-dots button {
+    border: 2px solid #2f3440;
+    height: 12px;
+    width: 12px;
+}
+.slider-active.dot-style .slick-dots li.slick-active button {
+    background: #2f3440;
+}
 
-/* features-area */
+/* 5. features-area */
 .features-title h2{
 	color: #414149;
 	font-size: 48px;
@@ -661,7 +680,7 @@ header.transparent-header{
 }
 
 
-/* promotion-area */
+/* 6. promotion-area */
 .promotion-area{
 	position: relative;
 }
@@ -700,7 +719,7 @@ header.transparent-header{
 }
 
 
-/* portfolio-area */
+/* 7. portfolio-area */
 .portfolio-title h2{
 	font-weight: 600;
 	font-size: 28px;
@@ -795,7 +814,7 @@ header.transparent-header{
 }
 
 
-/* counter-area */
+/* 8. counter-area */
 .counter-area{
 	background-size: cover;
 }
@@ -824,7 +843,7 @@ header.transparent-header{
 	font-size: 15px;
 }
 
-/* latest-blog-area */
+/* 9. latest-blog-area */
 .custom-row{
 	margin: 0 -15px;
 }
@@ -943,7 +962,7 @@ header.transparent-header{
 	margin-bottom: 30px;
 }
 
-/* testimonial-area */
+/* 10. testimonial-area */
 .testimonial-title h2{
 	font-weight: 600;
 	font-size: 28px;
@@ -1043,7 +1062,7 @@ header.transparent-header{
 	transform: scale(1);
 }
 
-/* footer-area */
+/* 11. footer-area */
 .brand-border{
 	border-bottom: 1px solid #fbba42;
 }
@@ -1118,7 +1137,7 @@ header.transparent-header{
 
 
 
-/* team-area */
+/* 12. team-area */
 .team-title h2{
 	font-size: 40px;
 	font-weight: 600;
@@ -1224,7 +1243,7 @@ header.transparent-header{
 	background: #fbba42;
 }
 
-/* our-mission accordion */
+/* 13. our-mission */
 .our-mission .accordion{
 	padding-top: 35px;
 	border: none;
@@ -1311,7 +1330,7 @@ header.transparent-header{
 
 
 
-/* Services */
+/* 14. Services */
 
 	.single-service-box{
 		padding: 30px 30px;
@@ -1344,7 +1363,7 @@ header.transparent-header{
 
 
 
-/* work-details */
+/* 15. work-details */
 
 	.work-details-area h3{
 		font-weight: 600;
@@ -1370,7 +1389,7 @@ header.transparent-header{
 
 
 
-/* news page */
+/* 16. news page */
 
 
 	.blog-item-content h4{
@@ -1633,10 +1652,6 @@ header.transparent-header{
 		margin-bottom: 25px;
 		border: 1px solid #e6e6e6;
 	}
-	.post-comments-form input{}
-	.post-comments-form input{}
-
-
 
 /* contact form */	
 
@@ -1685,7 +1700,7 @@ header.transparent-header{
 	}
 
 
-/* careers-area */
+/* 17. careers-area */
 	.why-work{
 		padding: 0 5px;
 	}
@@ -1754,7 +1769,7 @@ header.transparent-header{
 	}
 
 
-/* shop page */
+/* 18. shop page */
 	.single-prduct img{
 		border: 1px solid #ebebeb;
 		margin-bottom: 5px;
@@ -1809,7 +1824,7 @@ header.transparent-header{
 
 /* product-details page */
 
-	/* product-details*/
+	/* 19. product-details */
 	.nav-link img, .tab-pane img{
 		border: 1px solid #ebebeb;
 	}
@@ -1859,7 +1874,7 @@ header.transparent-header{
 		top: -2px;
 	}
 
-	/* re-details  */
+	/* 20. re-details  */
 	.review-tab .nav-link{
 		color: #333333;
 		font-size: 18px;
@@ -1949,7 +1964,7 @@ header.transparent-header{
 	}
 
 
-	/* cart */
+	/* 21. cart */
 	.cart-name h6 a{
 		font-size: 17px;
 		color: #414149;
