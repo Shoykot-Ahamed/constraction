@@ -1,11 +1,7 @@
 (function ($) {
 "use strict";
 
-// meanmenu
-$('#mobile-menu').meanmenu({
-	meanMenuContainer: '.mobile-menu',
-	meanScreenWidth: "992"
-});
+
 
 // One Page Nav
 var top_offset = $('.header-area').height() - 10;
@@ -316,15 +312,27 @@ $('.brand-active').slick({
 	}
   })
 
-  $('.portfolio-menu').on( 'click', 'button', function() {
+// filter items on button click
+$('.portfolio-menu').on( 'click', 'button', function() {
 	var filterValue = $(this).attr('data-filter');
-	grid.isotope({ filter: filterValue });
+	$grid.isotope({ filter: filterValue });
+  });	
+  
+  // init Isotope
+  var $grid = $('.grid').isotope({
+	itemSelector: '.grid-item',
+	percentPosition: false,
+	masonry: {
+	  // use outer width of grid-sizer for columnWidth
+	  columnWidth: '.grid-item',
+	}
   });
   
-  $('.portfolio-menu').on( 'click', function() {
-	$(this).siblings('.active').removeClass('.active')
-	$(this).addClass('.active')
-	event.preventDefault();
+  //for menu active class
+  $('.portfolio-menu button').on('click', function(event) {
+	  $(this).siblings('.active').removeClass('active');
+	  $(this).addClass('active');
+	  event.preventDefault();
   });
 
 

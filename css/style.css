@@ -349,6 +349,10 @@ label {
 .social-links>a:hover{
 	color: #fbba42;
 }
+.header-right i:hover {
+    color: #fbba42;
+    transition: .5s;
+}
 .header-right ul li{
 	display: inline-block;
 	text-align: right;
@@ -534,7 +538,7 @@ header.transparent-header{
 .main-menu ul li ul.submenu li a{
 	display: block;
 	color: #ddd;
-	padding: 10px 20px;
+	padding: 10px 15px;
 }
 .main-menu ul li ul.submenu li:hover> a{
 	color: #fbba42;
@@ -954,6 +958,9 @@ header.transparent-header{
 	font-weight: 600;
 	padding-left: 20px;
 }
+.blog-img img {
+    width: 100%;
+}
 .blog-latest-content a.btn{
 	font-size: 14px;
 	text-transform: capitalize;
@@ -1168,6 +1175,9 @@ header.transparent-header{
 .team-img{
 	position: relative;
 }
+.team-img img {
+	width: 100%;
+}
 .team-img::before{
 	background: #fbba42;
 	content: "";
@@ -1179,7 +1189,7 @@ header.transparent-header{
 	opacity: 0.9;
 	transition: all 0.3 ease 0s;
 }
-.single-team:hover .team-img::before{height: 100%; width: 103%;}
+.single-team:hover .team-img::before{height: 100%; width: 100%;}
 .team-links{
 	left: 0;
 	right: 0;
@@ -1385,6 +1395,9 @@ header.transparent-header{
 	}
 	.project-gallery-title h3{
 		padding-bottom: 20px;
+	}
+	.gallery-img img {
+		width: 100%;
 	}
 
 
